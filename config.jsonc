@@ -46,7 +46,13 @@
             "format": "{1}"
         },
         {
-            "key": "{#38}memory",
+            "key": "{#31}gpu",
+            "type": "gpu",
+            "format": "{2}"
+
+        },
+        {
+            "key": "{#32}memory",
             "keyColor": "38;5;123",
             "type": "memory",
             "format": "{1} / {2}"
