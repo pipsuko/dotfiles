@@ -29,30 +29,30 @@
             "format": "{1}"
         },
         {
-            "key": "{#35}pkgs",
+            "key": "{#34}pkgs",
             "keyColor": "38;5;200",
             "type": "packages"
         },
         {
-            "key": "{#36}wm",
+            "key": "{#35}wm",
             "keyColor": "38;5;44",
             "type": "wm",
             "format": "{1}"
         },
         {
-            "key": "{#37}cpu",
+            "key": "{#36}cpu",
             "keyColor": "38;5;75",
             "type": "cpu",
             "format": "{1}"
         },
         {
-            "key": "{#31}gpu",
+            "key": "{#32}gpu",
             "type": "gpu",
             "format": "{2}"
 
         },
         {
-            "key": "{#32}memory",
+            "key": "{#31}memory",
             "keyColor": "38;5;123",
             "type": "memory",
             "format": "{1} / {2}"
