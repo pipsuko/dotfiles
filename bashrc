@@ -4,6 +4,7 @@
 # including some apparently interactive shells such as scp and rcp
 # that can't tolerate any output.  So make sure this doesn't display
 # anything or bad things will happen !
+export PS1="\[\e[0;35m\] \[\e[0;35m\]\w\n\[\e[0;32m\]> \[\e[0m\]"
 clear() {
   /usr/bin/clear
   fastfetch
