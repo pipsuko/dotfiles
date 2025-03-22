@@ -4,57 +4,59 @@
         "type": "auto"
     },
     "display": {
-      "separator": "",
-      "key": {
-          "width": 8
-      }
+        "separator": "",
+        "key": {
+            "width": 8
+        },
+        "color": {
+              "keys": "magenta"
+        }
     },
     "modules": [
-        "title",
+        {  "type": "title",
+           "color": {
+              "user": "cyan",
+              "at": "cyan",
+              "host": "cyan"
+           }
+        },
         {
-            "key": "{#31}os",
-            "keyColor": "38;5;210",
+            "key": "os",
             "type": "os",
             "format": "{2}"
         },
         {
-            "key": "{#32}kernel",
-            "keyColor": "38;5;84",
+            "key": "kernel",
             "type": "kernel",
             "format": "{2}"
         },
         {
-            "key": "{#33}shell",
-            "keyColor": "38;5;147",
+            "key": "shell",
             "type": "shell",
             "format": "{1}"
         },
         {
-            "key": "{#34}pkgs",
-            "keyColor": "38;5;200",
+            "key": "pkgs",
             "type": "packages"
         },
         {
-            "key": "{#35}wm",
-            "keyColor": "38;5;44",
+            "key": "wm",
             "type": "wm",
             "format": "{1}"
         },
         {
-            "key": "{#36}cpu",
-            "keyColor": "38;5;75",
+            "key": "cpu",
             "type": "cpu",
             "format": "{1}"
         },
         {
-            "key": "{#32}gpu",
+            "key": "gpu",
             "type": "gpu",
             "format": "{2}"
 
         },
         {
-            "key": "{#31}memory",
-            "keyColor": "38;5;123",
+            "key": "memory",
             "type": "memory",
             "format": "{1} / {2}"
         },
