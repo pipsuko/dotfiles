@@ -4,9 +4,10 @@
         "type": "auto"
     },
     "display": {
-        "constants": [
-            ">"
-        ]
+      "separator": "",
+      "key": {
+          "width": 8
+      }
     },
     "modules": [
         "title",
