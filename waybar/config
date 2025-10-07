@@ -72,7 +72,7 @@
             "car": "",
             "default": ["", "", ""]
         },
-        "on-click": "niri msg action spawn pavucontrol"
+        "on-click": "niri msg action spawn -- pavucontrol"
     },
       "disk": {
           "interval": 30,
