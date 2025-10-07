@@ -1,0 +1,31 @@
+[global]
+monitor = 0
+origin = top-right
+offset = 10x20
+width = (256, 512)
+frame_width = 2
+frame_color = "#3d59a1"
+separator_color= frame
+font = FiraCode Nerd Font Mono Regular 12
+icon_theme = Papirus-Dark
+corner_radius = 8
+mouse_left_click = do_action
+mouse_middle_click = none
+mouse_right_click = close_current
+enable_recursive_icon_lookup = true
+timeout = 10
+max_icon_size = 64
+show_indicators = false
+[urgency_low]
+background = "#1a1b26"
+foreground = "#a9b1d6"
+
+[urgency_normal]
+background = "#1a1b26"
+foreground = "#a9b1d6"
+
+[urgency_critical]
+background = "#1a1b26"
+foreground = "#a9b1d6"
+frame_color = "#7dcfff"
+timeout = 0
