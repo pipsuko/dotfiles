@@ -65,10 +65,10 @@ layout {
     gaps 10
     background-color "transparent" //set workspace transparent so no grey screen with overview wallpaper enabled
     struts {
-      left 20
-      right 20
-      top 20
-      bottom 20
+      left 15
+      right 15
+      top 15
+      bottom 15
     }
     // When to center a column when changing focus, options are:
     // - "never", default behavior, focusing an off-screen column will keep at the left
