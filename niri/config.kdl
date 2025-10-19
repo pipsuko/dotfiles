@@ -3,7 +3,7 @@
 // Check the wiki for a full description of the configuration:
 // https://yalter.github.io/niri/Configuration:-Introduction
 cursor {
-  xcursor-theme "catppuccin-mocha-dark-cursors"
+  xcursor-theme "Nordzy-cursors"
   xcursor-size 24
   hide-when-typing
   hide-after-inactive-ms 5000
@@ -24,7 +24,7 @@ input {
     }
     // Uncomment this to make the mouse warp to the center of newly focused windows.
      warp-mouse-to-focus
-     focus-follows-mouse
+     focus-follows-mouse max-scroll-amount="30%"
     // Focus windows and outputs automatically when moving the mouse into them.
     // Setting max-scroll-amount="0%" makes it work only on windows already fully on screen.
     // focus-follows-mouse max-scroll-amount="0%"
@@ -110,8 +110,8 @@ layout {
         //off
 
         width 2
-        active-color "#7dcfff"
-        inactive-color "#3d59a1"
+        active-color "#88c0d0"
+        inactive-color "#4c566a"
 
         // Color of the border around windows that request your attention.
         urgent-color "#f7768e"
@@ -172,7 +172,7 @@ spawn-at-startup "dunst"
 spawn-at-startup "gentoo-pipewire-launcher" "restart"
 spawn-at-startup "/usr/libexec/polkit-gnome-authentication-agent-1"
 spawn-at-startup "import-gsettings"
-spawn-sh-at-startup "swaybg -m fill -i ~/pics/wallpaper/lonelyocean.jpg"
+spawn-sh-at-startup "swaybg -m fill -i ~/pics/aesthetics/darumakarei1.jpg"
 spawn-sh-at-startup "swayidle -w timeout 600 'niri msg action power-off-monitors'"
 hotkey-overlay {
     // Uncomment this line to disable the "Important Hotkeys" pop-up at startup.
