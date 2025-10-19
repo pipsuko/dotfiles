@@ -79,7 +79,7 @@ background: transparent;
 #workspaces button {
     padding: 0 2px;
     border-radius: 8px;
-    margin: 2px 0;
+    margin: 4px 2px 4px 0;
     color: @foreground;
     min-height: 0;
     min-width: 30px;
