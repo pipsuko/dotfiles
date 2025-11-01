@@ -20,7 +20,14 @@ input {
         // natural-scroll
         // accel-speed 0.2
          accel-profile "flat"
-        // scroll-method "no-scroll"
+         scroll-method "on-button-down"
+         scroll-button-lock
+         scroll-button 274
+    }
+    trackball {
+      scroll-method "on-button-down"
+      scroll-button-lock
+      scroll-button 274
     }
     // Uncomment this to make the mouse warp to the center of newly focused windows.
      warp-mouse-to-focus
@@ -32,7 +39,7 @@ input {
 
 // You can configure outputs by their name, which you can find
 // by running `niri msg outputs` while inside a niri instance.
-output "DP-1" {
+output "DP-3" {
 
     mode "2560x1440@165.080"
 
@@ -172,7 +179,7 @@ spawn-at-startup "dunst"
 spawn-at-startup "gentoo-pipewire-launcher" "restart"
 spawn-at-startup "/usr/libexec/polkit-gnome-authentication-agent-1"
 spawn-at-startup "import-gsettings"
-spawn-sh-at-startup "swaybg -m fill -i ~/pics/aesthetics/darumakarei1.jpg"
+spawn-sh-at-startup "swaybg -m fill -i ~/pics/wallpaper/pole.jpg"
 spawn-sh-at-startup "swayidle -w timeout 600 'niri msg action power-off-monitors'"
 hotkey-overlay {
     // Uncomment this line to disable the "Important Hotkeys" pop-up at startup.
