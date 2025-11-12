@@ -1,18 +1,31 @@
 
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: FontAwesome, FiraCode Nerd Font, Roboto, Helvetica, Arial, sans-serif;
+    font-family: FontAwesome, GoMono Nerd Font;
     font-size: 15px;
 }
+/* Define Colours */ 
+@define-color background  #2e3440;
+@define-color foreground  #d8dee9;
+@define-color border #4c566a;
+@define-color black #3b4252;
+@define-color red #bf616a;
+@define-color green #a3be8c;
+@define-color yellow #ebcb8b; 
+@define-color blue #81a1c1;
+@define-color magenta #b48ead;
+@define-color cyan #88c0d0;
+@define-color white #e5e9f0;
+@define-color selection #434c5e;
 
 window#waybar {
-    background-color: alpha(#1a1b26, 1.0);
-    border-top: 0px solid #414868;
-    border-bottom: 2px solid #403d52;
-    border-left: 0px solid #414868;
-    border-right: 0px solid #414868;
-    border-radius: 0px;
-    color: #e0def4;
+    background-color: alpha(@background, 0.99);
+    border-top: 2px solid @border;
+    border-bottom: 2px solid @border;
+    border-left: 2px solid @border;
+    border-right: 2px solid @border;
+    border-radius: 8px;
+    color: @foreground;
     transition-property: background-color;
     transition-duration: .5s;
 }
@@ -65,21 +78,25 @@ background: transparent;
 
 #workspaces button {
     padding: 0 2px;
-    color: #e0def4;
+    border-radius: 8px;
+    margin: 4px 2px 4px 0;
+    color: @foreground;
+    min-height: 0;
+    min-width: 30px;
 }
 
 #workspaces button:hover {
-    background: #414868;
-    color: #e0af68;
+    background: @selection;
+    color: @yellow;
 }
 
 #workspaces button.focused {
-    background-color: #414868;
-    color: #7dcfff;
+    background-color: @selection;
+    color: @cyan;
 }
 
 #workspaces button.urgent {
-    background-color: #f7768e;
+    background-color: @red;
 }
 
 #mode {
@@ -127,7 +144,7 @@ background: transparent;
 
 #clock {
     background-color: transparent;
-    color: #e0def4;
+    color: @foreground;
     border-radius: 12px; 
 }
 
@@ -147,7 +164,6 @@ background: transparent;
         color: #000000;
     }
 }
-
 #battery.critical:not(.charging) {
     background-color: #f53c3c;
     color: #ffffff;
@@ -164,19 +180,19 @@ label:focus {
 
 #cpu {
     background-color: transparent;
-    color: #e0def4;
+    color: @foreground;
     border-radius: 12px;
 }
 
 #memory {
     background-color: transparent;
     border-radius: 12px;
-    color: #e0def4;
+    color: @foreground;
 }
 
 #disk {
     background-color: transparent;
-    color: #e0def4;
+    color: @foreground;
 }
 
 #backlight {
@@ -186,7 +202,7 @@ label:focus {
 #network {
     background-color: transparent;
     border-radius: 12px;
-    color: #e0def4;
+    color: @foreground;
 }
 
 #network.disconnected {
@@ -195,7 +211,7 @@ label:focus {
 
 #pulseaudio {
     background-color: transparent;
-    color: #e0def4;
+    color: @foreground;
     border-radius: 12px;
 }
 

@@ -4,9 +4,9 @@ origin = top-right
 offset = 10x20
 width = (256, 512)
 frame_width = 2
-frame_color = "#3d59a1"
+frame_color = "#88c0d0"
 separator_color= frame
-font = FiraCode Nerd Font Mono Regular 12
+font = GoMono Nerd Font Mono Regular 12
 icon_theme = Papirus-Dark
 corner_radius = 8
 mouse_left_click = do_action
@@ -17,15 +17,15 @@ timeout = 10
 max_icon_size = 64
 show_indicators = false
 [urgency_low]
-background = "#1a1b26"
-foreground = "#a9b1d6"
+background = "#2e3440"
+foreground = "#d8dee9"
 
 [urgency_normal]
-background = "#1a1b26"
-foreground = "#a9b1d6"
+background = "#2e3440"
+foreground = "#d8dee9"
 
 [urgency_critical]
-background = "#1a1b26"
-foreground = "#a9b1d6"
-frame_color = "#7dcfff"
+background = "#2e3440"
+foreground = "#d8ee9"
+frame_color = "#88c0d0"
 timeout = 0
