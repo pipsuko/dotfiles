@@ -1,0 +1,5 @@
+--target=~
+--ignore='.git'
+--ignore='readme.md'
+--ignore='bash'
+--ignore='niri'
