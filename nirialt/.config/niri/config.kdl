@@ -39,9 +39,9 @@ input {
 
 // You can configure outputs by their name, which you can find
 // by running `niri msg outputs` while inside a niri instance.
-output "Virtual-1" {
+output "DP-3" {
 
-    mode "2560x1080@50.000"
+    mode "2560x1080@165.080"
 
     // You can use integer or fractional scale, for example use 1.5 for 150% scale.
     scale 1
@@ -174,7 +174,6 @@ layout {
 // Note that running niri as a session supports xdg-desktop-autostart,
 // which may be more convenient to use.
 // See the binds section below for more spawn examples.
-spawn-at-startup "/usr/libexec/polkit-gnome-authentication-agent-1"
 spawn-at-startup "import-gsettings"
 spawn-sh-at-startup "swaybg -m fill -i ~/pics/wallpaper/flashlight.jpg"
 spawn-sh-at-startup "swayidle -w timeout 600 'niri msg action power-off-monitors'"
