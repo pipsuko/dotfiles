@@ -20,9 +20,6 @@ input {
         // natural-scroll
         // accel-speed 0.2
          accel-profile "flat"
-         scroll-method "on-button-down"
-         scroll-button-lock
-         scroll-button 274
     }
     trackball {
       scroll-method "on-button-down"
@@ -41,7 +38,7 @@ input {
 // by running `niri msg outputs` while inside a niri instance.
 output "DP-3" {
 
-    mode "2560x1080@165.080"
+    mode "2560x1440@165.080"
 
     // You can use integer or fractional scale, for example use 1.5 for 150% scale.
     scale 1
