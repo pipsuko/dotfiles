@@ -172,7 +172,7 @@ layout {
 // which may be more convenient to use.
 // See the binds section below for more spawn examples.
 spawn-at-startup "import-gsettings"
-spawn-sh-at-startup "swaybg -m fill -i ~/pics/wallpaper/flashlight.jpg"
+spawn-sh-at-startup "swaybg -m fill -i ~/pics/wallpaper/darumakarei2.jpg"
 spawn-sh-at-startup "swayidle -w timeout 600 'niri msg action power-off-monitors'"
 spawn-at-startup "waybar"
 hotkey-overlay {

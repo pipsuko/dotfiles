@@ -19,7 +19,7 @@
 @define-color selection #434c5e;
 
 window#waybar {
-    background-color: alpha(@background, 0.99);
+    background-color: alpha(@background, 0.90);
     border-top: 2px solid @border;
     border-bottom: 2px solid @border;
     border-left: 2px solid @border;
