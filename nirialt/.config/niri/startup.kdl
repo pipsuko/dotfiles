@@ -1,0 +1,11 @@
+// Startup processes.
+
+spawn-at-startup "import-gsettings"
+spawn-sh-at-startup "swaybg -m fill -i ~/pics/wallpaper/darumakarei2.jpg"
+spawn-sh-at-startup "swayidle -w timeout 600 'niri msg action power-off-monitors'"
+spawn-at-startup "waybar"
+hotkey-overlay {
+    // Uncomment this line to disable the "Important Hotkeys" pop-up at startup.
+     skip-at-startup
+}
+

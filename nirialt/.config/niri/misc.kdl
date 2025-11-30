@@ -1,0 +1,8 @@
+// Miscellaneous options.
+
+// Ask clients to omit their client-side decorations if possible.
+// This option will fix border/focus ring drawing behind some semitransparent windows.
+prefer-no-csd
+
+// Path where screenshots are saved.
+screenshot-path "~/pics/screenshots/%Y-%m-%d %H-%M-%S.png"

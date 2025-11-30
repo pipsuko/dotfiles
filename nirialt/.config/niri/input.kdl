@@ -1,0 +1,16 @@
+// Input device configuration.
+input {
+
+  mouse {
+    accel-profile "flat"
+  }
+  
+  trackball {
+    scroll-method "on-button-down"
+    scroll-button-lock
+    scroll-button 274
+  }
+  // Make mouse warp to the center of newly focused windows.
+  warp-mouse-to-focus
+  focus-follows-mouse max-scroll-amount="30%"
+}
