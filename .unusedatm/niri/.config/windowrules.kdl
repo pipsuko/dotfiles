@@ -1,0 +1,25 @@
+// Window rules.
+
+window-rule {
+  match app-id="org.pulseaudio.pavucontrol"
+  open-floating true
+  default-column-width { fixed 750; }
+  default-window-height { fixed 750; }
+}
+window-rule {
+  draw-border-with-background false
+}
+window-rule {
+  geometry-corner-radius 8
+  clip-to-geometry true
+}
+window-rule {
+  // Position steam notifications to bottom right of output.
+  match app-id="steam" title=r#"^notificationtoasts_\d+_desktop$"#
+  default-floating-position x=10 y=10 relative-to="bottom-right"
+}
+// Set wallpaper to overview mode.
+layer-rule {
+  match namespace="^wallpaper$"
+  place-within-backdrop true
+}

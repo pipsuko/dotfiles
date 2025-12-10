@@ -1,0 +1,54 @@
+// Settings that influence how windows are positioned and sized.
+
+layout {
+  // Gaps.
+  gaps 10
+  // Outer gaps.
+  struts {
+    left 15
+    right 15
+    top 15
+    bottom 15
+  }
+
+  // Make workspace transparent so wallpaper displays while in overview mode.
+  background-color "transparent"
+
+  // When to center a column when changing focus.
+  center-focused-column "never"
+
+  // Widths that "switch-preset-column-width" (Mod + R) toggles between.
+  preset-column-widths {
+    proportion 0.33333
+    proportion 0.5
+    proportion 0.66667
+  }
+  // Default width of new windows, if left empty, the windows will decide their intial width.
+  default-column-width { proportion 0.5; }
+  
+  // Disable focus-ring and enable borders.
+  focus-ring {
+    off
+  }
+
+  border {
+    on
+    width 2
+    active-color "#88c0d0"
+    inactive-color "#4c566a"
+    urgent-color "#f7768e"
+  }
+  
+  // Window shadows.
+  shadow {
+    on 
+    // Softness controls the shadow blur radius.
+    softness 30
+    // Spread expands the shadow.
+    spread 5 
+    // Offset moves the shadow relative to the window
+    offset x=0 y=5 
+    // Change shadow colour and opacity.
+    color "#0007"
+  }
+}
