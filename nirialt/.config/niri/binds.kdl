@@ -89,7 +89,7 @@ binds {
   Mod+Period { expel-window-from-column; }
 
   // Cycle through focused column width and window height presets.
-  Mod+R { switch-preset-column-width; }
+  Mod+R       { switch-preset-column-width; }
   Mod+Shift+R { switch-preset-window-height; }
   Mod+Ctrl+R  { reset-window-height; }
 
@@ -108,8 +108,8 @@ binds {
   Mod+Ctrl+C { center-visible-columns; }
 
   // Finer width and height adjustments. 
-  Mod+Minus { set-column-width "-10%"; }
-  Mod+Equal { set-column-width "+10%"; }
+  Mod+Minus       { set-column-width "-10%"; }
+  Mod+Equal       { set-column-width "+10%"; }
   Mod+Shift+Minus { set-window-height "-10%"; }
   Mod+Shift+Equal { set-window-height "+10%"; }
 
@@ -124,10 +124,10 @@ binds {
   // Screenshot binds.
   Print { screenshot; }
   Ctrl+Print { screenshot-screen; }
-  Alt+Print { screenshot-window; }
+  Alt+Print  { screenshot-window; }
 
   // Quit the session. 
-  Mod+Shift+E { quit; }
+  Mod+Shift+E     { quit; }
   Ctrl+Alt+Delete { quit; }
 
   // Power off the monitors.
