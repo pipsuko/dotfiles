@@ -1,0 +1,14 @@
+// Startup processes.
+
+spawn-at-startup "import-gsettings"
+spawn-sh-at-startup "swaybg -m fill -i ~/pics/wallpaper/lain1.png"
+spawn-sh-at-startup "swayidle -w timeout 600 'niri msg action power-off-monitors'"
+spawn-at-startup "dunst"
+spawn-at-startup "gentoo-pipewire-launcher" "restart"
+spawn-at-startup "/usr/libexec/polkit-gnome-authentication-agent-1"
+spawn-at-startup "waybar"
+hotkey-overlay {
+    // Uncomment this line to disable the "Important Hotkeys" pop-up at startup.
+     skip-at-startup
+}
+

@@ -1,0 +1,11 @@
+// Output configuration.
+// Use 'niri msg outputs' inside a niri instance 
+// to view output names and settings.
+
+output "DP-3" {
+  mode "2560x1440@165.080"
+  scale 1 
+
+  // 'transform' allows rotating outputs.
+  transform "normal"
+}

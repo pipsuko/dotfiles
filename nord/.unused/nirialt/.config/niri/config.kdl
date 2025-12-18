@@ -1,0 +1,12 @@
+// Main niri config.
+
+
+// Config includes.
+include "binds.kdl"
+include "cursor.kdl"
+include "input.kdl"
+include "misc.kdl"
+include "output.kdl"
+include "startup.kdl"
+include "windowrules.kdl"
+include "layout.kdl"
