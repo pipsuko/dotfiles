@@ -83,6 +83,7 @@ background: transparent;
     color: @foreground;
     min-height: 0;
     min-width: 30px;
+    font-weight: normal;
 }
 
 #workspaces button:hover {
