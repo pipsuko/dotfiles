@@ -5,18 +5,18 @@
     font-size: 15px;
 }
 /* Define Colours */ 
-@define-color background  #CCCCCC;
-@define-color foreground  #474747;
-@define-color border #474747;
-@define-color black #CCCCCC;
-@define-color red #333333;
-@define-color green #9a9a9a;
-@define-color yellow #868686; 
-@define-color blue #727272;
-@define-color magenta #aeaeae;
-@define-color cyan #4a4a4a;
-@define-color white #5e5e5e;
-@define-color selection #aeaeae;
+@define-color background  #faf4ed;
+@define-color foreground  #575279;
+@define-color border #286983;
+@define-color black #f2e9e1;
+@define-color red #b4637a;
+@define-color green #286983;
+@define-color yellow #ea9d34; 
+@define-color blue #56949f;
+@define-color magenta #907aa9;
+@define-color cyan #d7827e;
+@define-color white #575279;
+@define-color selection #dfdad9;
 
 window#waybar {
     background-color: alpha(@background, 0.99);

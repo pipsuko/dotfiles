@@ -10,6 +10,7 @@ return {
   },
 
   { "shaunsingh/nord.nvim", lazy = true },
+
   {
     "folke/tokyonight.nvim",
     lazy = true,
