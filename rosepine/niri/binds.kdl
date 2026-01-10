@@ -95,6 +95,7 @@ binds {
 
   // Change column size to the maximum height and width.
   Mod+F { maximize-column; }
+  Mod+M { maximize-window-to-edges; }
 
   // Full-screen the focused window.
   Mod+Shift+F { fullscreen-window; }

@@ -1,7 +1,7 @@
 // Startup processes.
 
 spawn-at-startup "import-gsettings"
-spawn-sh-at-startup "swaybg -m fill -i ~/pics/aesthetics/darumakarei_cosmicbreak.jpg"
+spawn-sh-at-startup "swaybg -m fill -i ~/pics/aesthetics/darumakarei_log1-6.png"
 spawn-sh-at-startup "swayidle -w timeout 600 'niri msg action power-off-monitors'"
 spawn-at-startup "dunst"
 spawn-at-startup "gentoo-pipewire-launcher" "restart"
